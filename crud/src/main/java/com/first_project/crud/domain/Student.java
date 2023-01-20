@@ -18,10 +18,8 @@ public class Student {
     private String course;
     private int fee;
     public Student() {
-        super();
     }
     public Student(Long id, String name, String course, int fee) {
-        super();
         this.id = id;
         this.name = name;
         this.course = course;
